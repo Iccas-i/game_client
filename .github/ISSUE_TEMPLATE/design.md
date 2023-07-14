@@ -1,7 +1,7 @@
 ---
-name: "[DESIGN]"
+name: DESIGN
 about: 디자인 변경
-title: ''
+title: "[DESIGN]"
 labels: UX/UI
 assignees: ''
 

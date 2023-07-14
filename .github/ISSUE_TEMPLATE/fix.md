@@ -1,7 +1,7 @@
 ---
-name: "[FIX]"
+name: FIX
 about: '기능 수정 '
-title: ''
+title: "[FIX]"
 labels: "\U0001F528FIX"
 assignees: ''
 

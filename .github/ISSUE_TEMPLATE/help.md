@@ -1,7 +1,7 @@
 ---
-name: "[HELP]"
+name: HELP
 about: 도움 요청
-title: ''
+title: "[HELP]"
 labels: HELP
 assignees: ''
 

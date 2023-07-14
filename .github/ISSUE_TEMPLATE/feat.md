@@ -1,7 +1,7 @@
 ---
-name: "[FEAT]"
+name: FEAT
 about: 기능 추가
-title: ''
+title: "[FEAT]"
 labels: "⚙FEAT"
 assignees: ''
 

@@ -1,7 +1,7 @@
 ---
-name: "[BUG]"
+name: BUG
 about: 버그가 발생하여 수정이 필요한 경우
-title: ''
+title: "[BUG]"
 labels: "\U0001F41BBUG"
 assignees: ''
 

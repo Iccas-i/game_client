@@ -1,7 +1,7 @@
 ---
-name: "[REFACTOR]"
+name: REFACTOR
 about: 코드 구조 개선
-title: ''
+title: "[REFACTOR]"
 labels: REFEATOR
 assignees: ''
 
