@@ -16,7 +16,7 @@ public class Change2Team : MonoBehaviour
     {
         if (Input.GetMouseButton(0))
         {
-            SceneManager.LoadScene("Team");
+            SceneManager.LoadScene("Team"); // 지도 화면으로 전환
         }
     }
 }

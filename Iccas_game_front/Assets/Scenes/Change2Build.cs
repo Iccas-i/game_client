@@ -16,7 +16,7 @@ public class Change : MonoBehaviour
     {
         if (Input.GetMouseButton(0))
         {
-            SceneManager.LoadScene("BuildScene");
+            SceneManager.LoadScene("BuildScene"); // 개인 화면으로 전환
         }
     }
 }
