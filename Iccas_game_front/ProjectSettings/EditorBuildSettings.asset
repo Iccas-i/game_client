@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Team.unity
     guid: 19c59559a5f89c743acb9fd9316ec64d
+  - enabled: 1
+    path: Assets/Scenes/TeamGameResultScene.unity
+    guid: 0528f2c45c097fb4dbf3bf21d04caac1
   m_configObjects: {}
