@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/BuildScene.unity
+    guid: 3aa7244a30e8f15438ca0a92bebb3a5d
+  - enabled: 1
+    path: Assets/Scenes/Team.unity
+    guid: 19c59559a5f89c743acb9fd9316ec64d
+  - enabled: 1
+    path: Assets/Scenes/TeamChallenge.unity
+    guid: 27a4f1ae966f24d41b619cba6b9a02aa
   m_configObjects: {}
