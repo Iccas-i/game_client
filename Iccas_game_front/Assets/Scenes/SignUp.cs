@@ -14,9 +14,9 @@ public class SignUp : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButton(0))
+        /*if (Input.GetMouseButton(0))
         {
             SceneManager.LoadScene("First Scene"); // °³ÀÎ È­¸éÀ¸·Î ÀüÈ¯
-        }
+        }*/
     }
 }
