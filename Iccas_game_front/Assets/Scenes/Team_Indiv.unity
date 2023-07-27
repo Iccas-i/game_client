@@ -1143,7 +1143,7 @@ GameObject:
   - component: {fileID: 726746934}
   - component: {fileID: 726746933}
   m_Layer: 0
-  m_Name: Team_Challenge
+  m_Name: Team_Challenge_Btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1431,7 +1431,8 @@ Transform:
   m_LocalPosition: {x: -9.1, y: 4, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1629098045}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1624,7 +1625,7 @@ GameObject:
   - component: {fileID: 1583795088}
   - component: {fileID: 1583795087}
   m_Layer: 0
-  m_Name: Home
+  m_Name: Home_Btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1708,7 +1709,7 @@ GameObject:
   - component: {fileID: 1629098045}
   - component: {fileID: 1629098044}
   m_Layer: 0
-  m_Name: greyRectTapped
+  m_Name: Points_text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1773,14 +1774,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1629098043}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.4861, y: 4.03, z: 0}
-  m_LocalScale: {x: 0.46, y: 0.2, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.069501, y: 0.15000105, z: 0}
+  m_LocalScale: {x: 2.3, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 944543186}
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 1026927935}
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2000406156
 GameObject:
