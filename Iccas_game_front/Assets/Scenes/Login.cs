@@ -2,13 +2,16 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
+using TMPro;
+
 
 public class LoginManager : MonoBehaviour
 {
-    public InputField idInput;
-    public InputField passwordInput;
+    public TMP_InputField idInput;
+    public TMP_InputField passwordInput;
     public Button loginButton;
-    public Text statusText;
+    public TMP_Text statusText;
+    
 
     private string loginURL = "http://localhost:3000/login";
 
