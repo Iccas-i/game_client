@@ -23,7 +23,7 @@ public class PanelHandler : MonoBehaviour
         var seq = DOTween.Sequence();
 
         // DOScale 의 첫 번째 파라미터는 목표 Scale 값, 두 번째는 시간입니다.
-        seq.Append(transform.DOScale(1.1f, 0.2f));
+        seq.Append(transform.DOScale(1.1f, 0.1f));
         seq.Append(transform.DOScale(1f, 0.1f));
 
         seq.Play();
@@ -36,7 +36,7 @@ public class PanelHandler : MonoBehaviour
         transform.localScale = Vector3.one * 0.2f;
 
         seq.Append(transform.DOScale(1.1f, 0.1f));
-        seq.Append(transform.DOScale(0.2f, 0.2f));
+        seq.Append(transform.DOScale(0.1f, 0.1f));
 
         // OnComplete 는 seq 에 설정한 애니메이션의 플레이가 완료되면
         // { } 안에 있는 코드가 수행된다는 의미입니다.

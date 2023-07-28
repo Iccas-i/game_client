@@ -11,7 +11,7 @@ public class CloseButtonHandler : MonoBehaviour
     {
         var seq = DOTween.Sequence();
 
-        seq.Append(transform.DOScale(0.95f, 0.1f));
+        seq.Append(transform.DOScale(1f, 0.1f));
         seq.Append(transform.DOScale(1.05f, 0.1f));
         seq.Append(transform.DOScale(1f, 0.1f));
 
