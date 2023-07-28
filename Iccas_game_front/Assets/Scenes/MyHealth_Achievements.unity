@@ -1422,7 +1422,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uB098\uC758 \uC5C5\uC801"
+  m_text: My Achievement
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d75788b9908e4914a8a8ba746693b804, type: 2}
   m_sharedMaterial: {fileID: 8356481263871875133, guid: d75788b9908e4914a8a8ba746693b804, type: 2}
