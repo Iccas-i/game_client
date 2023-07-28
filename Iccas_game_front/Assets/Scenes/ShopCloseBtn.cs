@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
-
+/*
 public class ShopCloseBtn : MonoBehaviour
 {
     public ShopHandler popupWindow;
@@ -18,4 +18,4 @@ public class ShopCloseBtn : MonoBehaviour
             popupWindow.Hide();
         });
     }
-}
+}*/

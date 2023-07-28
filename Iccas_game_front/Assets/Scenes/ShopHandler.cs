@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-public class ShopHandler : MonoBehaviour
+/*public class ShopHandler : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -46,4 +46,11 @@ public class ShopHandler : MonoBehaviour
             gameObject.SetActive(false);
         });
     }
+}*/
+
+
+public class ShopHandler : MonoBehaviour
+{
+    void Start() => this.gameObject.SetActive(false);//씬이호출될때 표시되지않게함
+
 }
