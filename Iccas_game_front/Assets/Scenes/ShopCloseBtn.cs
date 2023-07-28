@@ -19,3 +19,8 @@ public class ShopCloseBtn : MonoBehaviour
         });
     }
 }*/
+public class ShopCloseBtn : MonoBehaviour
+{
+    void Update() => this.gameObject.SetActive(true);//씬이호출될때 표시되지않게함
+
+}
