@@ -2,35 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ClickPopup : MonoBehaviour
+public class PopUp : MonoBehaviour
 {
     public GameObject popupPanel;
 
-    private void Update()
-    {
-        if (Input.GetMouseButtonDown(0)) // Left mouse button click
-        {
-            Vector2 clickPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Collider2D collider = Physics2D.OverlapPoint(clickPosition);
-
-            if (collider != null && collider.gameObject == gameObject)
-            {
-                ShowPopup();
-            }
-            else
-            {
-                HidePopup();
-            }
-        }
-    }
-
-    public void ShowPopup()
+    public void PopUp()
     {
         popupPanel.SetActive(true);
     }
-
-    public void HidePopup()
+    // Start is called before the first frame update
+    void Start()
     {
-        popupPanel.SetActive(false);
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
     }
 }
