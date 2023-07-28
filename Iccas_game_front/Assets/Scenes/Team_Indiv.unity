@@ -758,13 +758,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: fe97e11bd1f0eb8489cf10e1e25d25f5, type: 3}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 465149658}
+        m_TargetAssemblyTypeName: ButtonHandler, Assembly-CSharp
+        m_MethodName: OnButtonClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -817,9 +817,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 465149652}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe97e11bd1f0eb8489cf10e1e25d25f5, type: 3}
+  m_Script: {fileID: 11500000, guid: d1f8a56681707fb4e96cdab040d14c31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  popupWindow: {fileID: 718106088}
 --- !u!1 &588160305
 GameObject:
   m_ObjectHideFlags: 0
@@ -3391,7 +3392,7 @@ GameObject:
   - component: {fileID: 1718297278}
   - component: {fileID: 1718297277}
   - component: {fileID: 1718297276}
-  - component: {fileID: 1718297275}
+  - component: {fileID: 1718297279}
   m_Layer: 5
   m_Name: CloseButton
   m_TagString: Untagged
@@ -3420,19 +3421,6 @@ RectTransform:
   m_AnchoredPosition: {x: 941.91, y: 431.29}
   m_SizeDelta: {x: 116.1801, y: 97.4154}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1718297275
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1718297273}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 893492335ff84364fbe9cf6c614e3271, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  popupWindow: {fileID: 0}
 --- !u!114 &1718297276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3477,16 +3465,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 893492335ff84364fbe9cf6c614e3271, type: 3}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
-        m_MethodName: set_name
-        m_Mode: 5
+      - m_Target: {fileID: 1718297279}
+        m_TargetAssemblyTypeName: CloseButtonHandler, Assembly-CSharp
+        m_MethodName: OnButtonClick
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: CloseButtonHandler.OnButtonClick
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1718297277
@@ -3527,6 +3515,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1718297273}
   m_CullTransparentMesh: 1
+--- !u!114 &1718297279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718297273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 893492335ff84364fbe9cf6c614e3271, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupWindow: {fileID: 718106088}
 --- !u!1 &2000406156
 GameObject:
   m_ObjectHideFlags: 0
@@ -13291,6 +13292,7 @@ GameObject:
   - component: {fileID: 2144477321}
   - component: {fileID: 2144477320}
   - component: {fileID: 2144477323}
+  - component: {fileID: 2144477324}
   m_Layer: 5
   m_Name: ChangeButton
   m_TagString: Untagged
@@ -13362,16 +13364,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: fe97e11bd1f0eb8489cf10e1e25d25f5, type: 3}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
-        m_MethodName: set_name
-        m_Mode: 5
+      - m_Target: {fileID: 2144477324}
+        m_TargetAssemblyTypeName: ButtonHandler, Assembly-CSharp
+        m_MethodName: OnButtonClick
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: void Team_Indiv.OnButtonClick()
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2144477321
@@ -13424,3 +13426,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe97e11bd1f0eb8489cf10e1e25d25f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2144477324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144477318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1f8a56681707fb4e96cdab040d14c31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupWindow: {fileID: 0}

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Show_Challenge : MonoBehaviour
+public class Go2Map : MonoBehaviour
 {
-    public void OnButtonClick()
+    public void OnClick()
     {
         SceneManager.LoadScene("Team_Map"); 
     }
