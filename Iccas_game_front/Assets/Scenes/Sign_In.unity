@@ -863,6 +863,7 @@ MonoBehaviour:
   idInput: {fileID: 2048120238}
   passwordInput: {fileID: 903588078}
   loginButton: {fileID: 1275813411}
+  SignUpButton: {fileID: 1952987948}
   statusText: {fileID: 1893583226}
 --- !u!1 &804995833
 GameObject:
@@ -2212,7 +2213,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 797.21, y: -1020}
-  m_SizeDelta: {x: 687.98, y: 428.7277}
+  m_SizeDelta: {x: 687.98, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1952987948
 MonoBehaviour:
