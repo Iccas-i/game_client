@@ -1,14 +1,14 @@
-using System.Collections;
+/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PopUp : MonoBehaviour
 {
-    public GameObject popupPanel;
+   // public GameObject popupPanel;
 
     public void PopUp()
     {
-        popupPanel.SetActive(true);
+        //popupPanel.SetActive(true);
     }
     // Start is called before the first frame update
     void Start()
@@ -21,4 +21,4 @@ public class PopUp : MonoBehaviour
     {
         
     }
-}
+}*/
