@@ -13,7 +13,7 @@ public class LoginManager : MonoBehaviour
     public TMP_Text statusText;
     
 
-    private string loginURL = "http://localhost:3000/login";
+    private string loginURL = "http://localhost:3000/login"; //http 웹 주소
 
     private void Start()
     {
@@ -30,12 +30,11 @@ public class LoginManager : MonoBehaviour
         statusText.text = "Logging in...";
 
         WWWForm form = new WWWForm();
-        form.AddField("id", idInput.text);
-        form.AddField("password", passwordInput.text);
+        form.AddField("User_ID", idInput.text);
+        form.AddField("User_PW", passwordInput.text);
 
         UnityWebRequest request = UnityWebRequest.Post(loginURL, form);
         yield return request.SendWebRequest();
-
         if (request.result == UnityWebRequest.Result.ConnectionError || request.result == UnityWebRequest.Result.ProtocolError)
         {
             statusText.text = "Error: " + request.error;
@@ -43,8 +42,8 @@ public class LoginManager : MonoBehaviour
         else
         {
             if (request.responseCode == 200)
-            {
-                statusText.text = "Successfully logged in as " + idInput.text;
+            {  
+                statusText.text = "Successfully logged in as " + idInput.text + request.downloadHandler.text;
             }
             else
             {
