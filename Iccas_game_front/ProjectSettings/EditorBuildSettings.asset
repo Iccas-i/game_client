@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MyHealth.unity
     guid: f58431fb94481a347a3c655c71a8fc0e
   - enabled: 0
-    path: Assets/Scenes/Myhealth_Acheivements.unity
+    path: Assets/Scenes/MyChallengeList.unity
     guid: b23310042efa640478c08f90019118dd
   - enabled: 1
     path: Assets/Scenes/MyHealth_Achievements.unity
