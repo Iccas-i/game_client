@@ -52,10 +52,15 @@ public class LoginManager : MonoBehaviour
         {
             if (request.responseCode == 200)        // 200 - 서버와 연결 성공 여부
             {  
-                statusText.text = request.downloadHandler.text;
-                yield return new WaitForSeconds(1); // 로그인 성공 후 1초 대기
-            
-                //SceneManager.LoadScene("Home"); // 로그인 성공 후 MainScene으로 전환
+                if(request.downloadHandler.text == "T"){        // 로그인 성공시
+                    statusText.text = "로그인 성공! " + idInput.text +"님 안녕하세요!"; // 안내 문구 출력
+                    yield return new WaitForSeconds(1); // 로그인 성공 후 1초 대기
+                    SceneManager.LoadScene("Home"); // 로그인 성공 후 MainScene으로 전환
+                }
+                else if(request.downloadHandler.text == "F"){    // 로그인 실패시
+                    statusText.text = "아이디 또는 비밀번호가 틀렸습니다";  // 안내 문구 출력
+                }
+        
             }
             
             else
