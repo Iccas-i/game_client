@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Team_Indiv : MonoBehaviour
+public class Go2Indiv : MonoBehaviour
 {
-    public void OnButtonClick()
+    public void OnClick()
     {
-        SceneManager.LoadScene("Team_Map");
-        
+        SceneManager.LoadScene("Team_Indiv");
     }
 }
