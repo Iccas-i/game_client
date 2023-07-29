@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 
-public class Timer : MonoBehaviour
+public class Team_Challenge_Timer : MonoBehaviour
 {
     public string m_Timer = @"00:00:00.000";
     private bool m_IsPlaying;
