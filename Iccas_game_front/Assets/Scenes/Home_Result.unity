@@ -1116,7 +1116,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6204771066759659745, guid: d9f1eab8509cab84c8deac6f16b2db0c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Go2Result, Assembly-CSharp
+      value: LoadScene, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6204771066759659745, guid: d9f1eab8509cab84c8deac6f16b2db0c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -1137,6 +1137,10 @@ PrefabInstance:
     - target: {fileID: 6204771066759659746, guid: d9f1eab8509cab84c8deac6f16b2db0c, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -1091
+      objectReference: {fileID: 0}
+    - target: {fileID: 6204771066759659747, guid: d9f1eab8509cab84c8deac6f16b2db0c, type: 3}
+      propertyPath: m_Name
+      value: Result Button
       objectReference: {fileID: 0}
     - target: {fileID: 6204771067164384355, guid: d9f1eab8509cab84c8deac6f16b2db0c, type: 3}
       propertyPath: m_Text
@@ -1265,9 +1269,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 735980883}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d78c3a9f7b41514f9239c4c56d5104e, type: 3}
+  m_Script: {fileID: 11500000, guid: b8ac4871a8fe26c4cbc346c5dd580333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  index: 7
 --- !u!224 &825851700 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5572871151283880623, guid: d9f1eab8509cab84c8deac6f16b2db0c, type: 3}

@@ -41,7 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Team_Recruit.unity
     guid: f7fdc1dc583d56642bb2d681f65609df
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/test_websocket.unity
     guid: 17b769ad721121c41bb6ed50ea277a96
   - enabled: 1
