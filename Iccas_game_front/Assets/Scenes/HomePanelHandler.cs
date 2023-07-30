@@ -46,15 +46,17 @@ public class HomePanelHandler : MonoBehaviour
         {
             yield return www.SendWebRequest();
 
-            if (www.result == UnityWebRequest.Result.Success) // 성공시
-            {
-                responseText.text = "정보가 저장되었습니다.";
+            if (www.result == UnityWebRequest.Result.Success) // 성공시 정보 저장
+            {   
+                responseText.text = www.downloadHandler.text;
+                yield return new WaitForSeconds(2); // 로그인 성공 후 1초 대기
                 responseText.gameObject.SetActive(true);
                 GoToPreviousPanel();
             }
             else // 실패시
             {
-                responseText.text = "정보 저장에 실패했습니다. 다시 시도해주세요.";
+                responseText.text = www.downloadHandler.text;
+                yield return new WaitForSeconds(2); // 로그인 성공 후 1초 대기
                 responseText.gameObject.SetActive(true);
             }
         }
@@ -71,7 +73,7 @@ public class HomePanelHandler : MonoBehaviour
 
     void GoToPreviousPanel()
     {
-        popupPanel.SetActive(false);
-        previousPanel.SetActive(true);
+        popupPanel.SetActive(false);        // 현재 패널 은 끄고
+        previousPanel.SetActive(true);      // 이전 패널은 키고
     }
 }
