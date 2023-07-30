@@ -75,8 +75,17 @@ public class SignUpManager : MonoBehaviour
         {
             if (request.responseCode == 200)
             {
-                statusText.text = request.downloadHandler.text;
-                yield return new WaitForSeconds(1); // 로그인 성공 후 1초 대기
+                if(request.downloadHandler.text == "T"){
+                    statusText.text = "회원가입 성공!";
+                    yield return new WaitForSeconds(1); // 로그인 성공 후 1초 대기
+                    SceneManager.LoadScene("Sign_In"); // 로그인 성공 후 MainScene으로 전환
+                }
+                else if(request.downloadHandler.text == "F"){
+                    statusText.text = "다시 작성해주세요!";
+                    yield return new WaitForSeconds(1); // 로그인 성공 후 1초 대기
+                    statusText.text = "";
+                }
+                //yield return new WaitForSeconds(1); // 로그인 성공 후 1초 대기
                 //SceneManager.LoadScene("Home"); // 로그인 성공 후 MainScene으로 전환
             }
             else
