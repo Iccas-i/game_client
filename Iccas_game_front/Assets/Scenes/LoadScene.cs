@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class Go2Home_R : MonoBehaviour
+
+public class LoadScene : MonoBehaviour
 {
-    // Start is called before the first frame update
-   
+    public int index;
+
+
     public void OnClick()
     {
-        SceneManager.LoadScene("Home_Result");
+        SceneManager.LoadScene(index, LoadSceneMode.Single);
     }
 }

@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 133876808}
   - component: {fileID: 133876811}
   m_Layer: 5
-  m_Name: ToBattle
+  m_Name: ToIndiv
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -209,7 +209,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 133876811}
-        m_TargetAssemblyTypeName: Go2Indiv, Assembly-CSharp
+        m_TargetAssemblyTypeName: LoadScene, Assembly-CSharp
         m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
@@ -267,9 +267,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 133876806}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 797521bef3e16f9489e74c6eb46187de, type: 3}
+  m_Script: {fileID: 11500000, guid: b8ac4871a8fe26c4cbc346c5dd580333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  index: 9
 --- !u!1 &196641005
 GameObject:
   m_ObjectHideFlags: 0
@@ -1249,7 +1250,7 @@ GameObject:
   - component: {fileID: 1271936783}
   - component: {fileID: 1271936782}
   - component: {fileID: 1271936781}
-  - component: {fileID: 1271936785}
+  - component: {fileID: 1271936784}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1321,8 +1322,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1271936785}
-        m_TargetAssemblyTypeName: Go2Home_R, Assembly-CSharp
+      - m_Target: {fileID: 1271936784}
+        m_TargetAssemblyTypeName: LoadScene, Assembly-CSharp
         m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
@@ -1371,7 +1372,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1271936779}
   m_CullTransparentMesh: 1
---- !u!114 &1271936785
+--- !u!114 &1271936784
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1380,9 +1381,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1271936779}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36729e42f766b0541a90bcdaf0499720, type: 3}
+  m_Script: {fileID: 11500000, guid: b8ac4871a8fe26c4cbc346c5dd580333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  index: 12
 --- !u!1 &1465491427 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3517345858828243272, guid: dae4b7192238d404b9a4969348593a72, type: 3}
