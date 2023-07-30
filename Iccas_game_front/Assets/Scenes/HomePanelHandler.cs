@@ -15,7 +15,7 @@ public class HomePanelHandler : MonoBehaviour
     public GameObject popupPanel;
     public GameObject previousPanel;
 
-    private string serverURL = "http://localhost:3000//ask/report";
+    private string serverURL = "http://localhost:3000/post/health";
 
     public void OnSaveButtonClick()
     {
