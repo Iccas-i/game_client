@@ -22,7 +22,7 @@ public class SignUpManager : MonoBehaviour
     public TMP_Text statusText;
     
 
-    private string signUpURL = "http://localhost:3000/reg";
+    private string signUpURL = "http://192.168.0.95:3000/reg";
 
     private void Start()
     {

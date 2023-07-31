@@ -15,7 +15,7 @@ public class LoginManager : MonoBehaviour
     public TMP_Text statusText;
     
 
-    private string loginURL = "http://localhost:3000/login"; //http 웹 주소
+    private string loginURL = "http://192.168.0.95:3000/login"; //http 웹 주소
 
     private void Start()
     {
