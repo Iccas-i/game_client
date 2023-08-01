@@ -5,31 +5,27 @@ using DG.Tweening;
 
 public class ArrowHandler : MonoBehaviour
 {
-    
-    public float fadeOutTime = 1.0f;
 
-    private void Start()
+    float time;
+
+    // Update is called once per frame
+    void Update()
     {
-       StartCoroutine (SpriteFadeOut(GetComponent<SpriteRenderer>()));
-        
-    }
-
-    IEnumerator SpriteFadeOut(SpriteRenderer _sprite)
-    {
-        Color tmpcolor = _sprite.color;
-
-        while (tmpcolor.a > 0.0f)
+        if (time < 0.5f)
         {
-            tmpcolor.a -= Time.deltaTime / fadeOutTime;
-            _sprite.color = tmpcolor;
-
-            if (tmpcolor.a <= 0f)
-                tmpcolor.a = 0.0f;
-
-            yield return null;
+            GetComponent<SpriteRenderer>().color = new Color(0, 100, 255, 1 - time);
+        }
+        else
+        {
+            GetComponent<SpriteRenderer>().color = new Color(0, 100, 255, time);
+            if (time > 1f)
+            {
+                time = 0;
+            }
         }
 
-        _sprite.color = tmpcolor;
+        time += Time.deltaTime;
+
     }
 
 
