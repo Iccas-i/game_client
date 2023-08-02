@@ -20789,7 +20789,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firepoint: {fileID: 483464859}
-  bulletPrefab: {fileID: 4746354688291599755, guid: b0d7e62998429b840856c92c8190acc1, type: 3}
+  bulletPrefab: {fileID: 3287224882515016120, guid: ab79ea64f95005941be4fcf35fdb0406, type: 3}
   bulletForce: 20
 --- !u!114 &948706156
 MonoBehaviour:
@@ -20817,7 +20817,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 948706154}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
