@@ -23,7 +23,7 @@ public class HealthReportPanelHandler : MonoBehaviour
     public TMP_Text TimeText;
 
     private string userId = "1234"; // 데모 임시 아이디
-    private string serverURL = "http://192.168.0.95:3000/ask/report";
+    private string serverURL = "http://3.224.156.19:3000/ask/report";
 
 
     
