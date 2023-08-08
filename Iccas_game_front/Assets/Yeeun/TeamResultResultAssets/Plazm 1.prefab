@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2742483990359622595}
   - component: {fileID: 8529516884418228079}
   - component: {fileID: 2441296870166581555}
+  - component: {fileID: 2486960124687576445}
   m_Layer: 0
   m_Name: Plazm 1
   m_TagString: Untagged
@@ -112,3 +113,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2486960124687576445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3287224882515016120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0e14ead6db7d89479d019f83703b0a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
